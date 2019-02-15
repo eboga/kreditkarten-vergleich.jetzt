@@ -871,7 +871,23 @@
 
 
 
+<script type="application/javascript">
+    var containerEl = document.querySelector('.container');
 
+    var mixer = mixitup(containerEl, {
+        multifilter: {
+            enable: true
+        },
+        load: {
+            sort: 'ranking:asc price:asc name:asc'
+        },
+
+        animation: {
+            effects: 'fade translateZ(-100px)'
+        }
+    });
+
+</script>
         <style>
   @media only screen and (max-width: 47.9375em) {
     footer , footer ul {
