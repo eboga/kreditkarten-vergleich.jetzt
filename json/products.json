@@ -1,0 +1,37 @@
+{"items":
+[
+{"title": "barclay visa gold",
+"product-name": "Barclaycard Gold Visa",
+"product-image": "barclaycard-gold-visa-kreditkarte.png",
+"ranking": "4.0",
+"price": "",
+"cardsystem": "visa"},
+
+{"title": "barclay visa",
+"product-name": "Barclaycard Platinum Double",
+"product-image": "barclaycard-platinum-double-kreditkarte.png",
+"ranking": "3.5",
+"price": "",
+"cardsystem": "mastervisa"},
+
+{"title": "barclay visa stundent",
+"product-name": "Barclaycard for Students",
+"product-image": "barclaycard-students-kreditkarte.png",
+"ranking": "2.3",
+"price": "",
+"cardsystem": "visamaster"},
+
+{"title": "barclay visa",
+"product-name": "Barclaycard Visa",
+"product-image": "barclaycard-visa-kreditkarte.png",
+"ranking": "1.5",
+"price": "",
+"cardsystem": "visa"},
+
+{"title": "dkb visa",
+"product-name": "DKB Visa",
+"product-image": "dkb-visa-kreditkarte.jpg",
+"ranking": "1.6",
+"price": "",
+"cardsystem": "visa"}
+]}
