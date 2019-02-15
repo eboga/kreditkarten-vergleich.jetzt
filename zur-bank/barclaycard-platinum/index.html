@@ -1,14 +1,21 @@
+<?php
+            if (isset($_GET['id'])) {
+                $id = $_GET['id'];
+            } else {
+                $id = '001';
+            }
+?>
 <!DOCTYPE html>
 <html lang="de">
   <head>
     <meta charset="utf-8">
     <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
-    <meta http-equiv="refresh" content="0;url=https://www.financeads.net/tc.php?t=25194C14309000D&product=217" />
+    <meta http-equiv="refresh" content="10;url=https://www.financeads.net/tc.php?t=25194C14309000D&product=217<?php echo $id; ?>" />
   </head>
 
   <body>
     <script type="application/javascript">
-        window.location = "https://www.financeads.net/tc.php?t=25194C14309000D&product=217";
+        // window.location = "https://www.financeads.net/tc.php?t=25194C14309000D&product=217<?php echo $id; ?>";
     </script>
   </body>
 </html>
