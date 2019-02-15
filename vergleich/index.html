@@ -192,7 +192,14 @@
   </div>
 </div>
 
-<?php echo '<h1> BLA </h1>';?>
+
+<?php
+setlocale(LC_TIME, "de_DE");
+echo strftime("%B");
+?>
+
+
+
 
 <div class="pure-g">
   <div class="qm-sm-12-12 qm-lg-3-12 filter-wrapper">
