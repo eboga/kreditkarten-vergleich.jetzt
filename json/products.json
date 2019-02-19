@@ -5,7 +5,7 @@
 "product-image": "advanzia-mastercard-gold.jpg",
 "ranking": "1.9",
 "price": "",
-"cardsystem": "mastercard"},
+"cardsystem": "master"},
 
 {"title": "american express green card",
 "product-name": "American Express Card Green",
@@ -46,6 +46,13 @@
 "product-name": "DKB Visa",
 "product-image": "dkb-visa-kreditkarte.jpg",
 "ranking": "1.6",
+"price": "",
+"cardsystem": "visa"},
+
+{"title": "ics visa world",
+"product-name": "ICS Visa Gold",
+"product-image": "ics-world-gold-kreditkarte.png",
+"ranking": "3.3",
 "price": "",
 "cardsystem": "visa"},
 
