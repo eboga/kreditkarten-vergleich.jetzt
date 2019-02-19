@@ -49,6 +49,20 @@
 "price": "",
 "cardsystem": "visa"},
 
+{"title": "hanseatic genial",
+"product-name": "Hanseatic Genialcard",
+"product-image": "hanseatic-genialcard.gif",
+"ranking": "10.0",
+"price": "",
+"cardsystem": "visa"},
+
+{"title": "hanseatic gold",
+"product-name": "Hanseatic Goldcard",
+"product-image": "hanseatic-gold-kreditkarte.jpg",
+"ranking": "3.3",
+"price": "",
+"cardsystem": "visa"},
+
 {"title": "ics visa world",
 "product-name": "ICS Visa Gold",
 "product-image": "ics-world-gold-kreditkarte.png",
@@ -61,5 +75,12 @@
 "product-image": "ics-visa-world-kreditkarte.png",
 "ranking": "1.9",
 "price": "",
-"cardsystem": "visa"}
+"cardsystem": "visa"},
+
+{"title": "o2 mastercard",
+"product-name": "O2 Debit Mastercard",
+"product-image": "o2-mastercard-kreditkarte.jpeg",
+"ranking": "10.0",
+"price": "",
+"cardsystem": "master"}
 ]}
