@@ -7,10 +7,17 @@
 "price": "",
 "cardsystem": "master"},
 
-{"title": "american express green card",
-"product-name": "American Express Card Green",
+{"title": "american express green",
+"product-name": "American Express Card",
 "product-image": "american-express-green-card.gif",
 "ranking": "4.6",
+"price": "",
+"cardsystem": "amex"},
+
+{"title": "american express payback card",
+"product-name": "American Express Payback",
+"product-image": "american-express-payback.png",
+"ranking": "1.8",
 "price": "",
 "cardsystem": "amex"},
 
@@ -77,9 +84,30 @@
 "price": "",
 "cardsystem": "visa"},
 
+{"title": "netbank Premium",
+"product-name": "netbank Mastercard Premium",
+"product-image": "netbank-mastercard-premium.png",
+"ranking": "4.3",
+"price": "",
+"cardsystem": "master"},
+
+{"title": "netbank Prepaid",
+"product-name": "netbank Mastercard Prepaid",
+"product-image": "netbank-mastercard-prepaid.png",
+"ranking": "4.3",
+"price": "",
+"cardsystem": "master"},
+
 {"title": "o2 mastercard",
 "product-name": "O2 Debit Mastercard",
 "product-image": "o2-mastercard-kreditkarte.jpeg",
+"ranking": "2.1",
+"price": "",
+"cardsystem": "master"},
+
+{"title": "VIABUY Prepaid Mastercard",
+"product-name": "VIABUY Prepaid Mastercard",
+"product-image": "viabuy-mastercard-prepaid.gif",
 "ranking": "10.0",
 "price": "",
 "cardsystem": "master"}
