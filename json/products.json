@@ -105,6 +105,13 @@
 "price": "",
 "cardsystem": "master"},
 
+{"title": "Santander 1Plus",
+"product-name": "Santander 1Plus",
+"product-image": "santander-1plus-kreditkarte.png",
+"ranking": "1.7",
+"price": "",
+"cardsystem": "visa"},
+
 {"title": "VIABUY Prepaid Mastercard",
 "product-name": "VIABUY Prepaid Mastercard",
 "product-image": "viabuy-mastercard-prepaid.gif",
