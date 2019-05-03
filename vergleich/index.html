@@ -11,7 +11,6 @@
     <script src="/assets/js/lazyload.min.js"></script>
     <script src="/assets/js/mixitup.min.js"></script>
     <script src="/assets/js/mixitup-multifilter.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="/assets/js/ouibounce.min.js"></script>
 
 
@@ -108,7 +107,7 @@
 
 <div class="pure-g">
   <div class="qm-sm-12-12">
-    <div class="page-title">Kreditkarten im Vergleich - März 2019</div>
+    <div class="page-title">Kreditkarten im Vergleich - Mai 2019</div>
     <p class="excerpt show-for-large">
       Unser Kreditkarten-Vergleich bietet Ihnen eine einfache Orientierung anhand der wichtigsten Merkmale von Kreditkarten. Finden Sie die perfekte Karte unter zahlreichen Angeboten.
     </p>
@@ -127,8 +126,8 @@
             <div class="filter-name">
               Kartensystem
             </div>
-            <fieldset data-filter-group data-logic="and">
-              <select>
+            <fieldset data-filter-group="card" data-logic="and">
+              <select class='js-card'>
                 <option value="">Alle Karten</option>
                 <option value=".master">Mastercard</option>
                 <option value=".visa">Visa</option>
@@ -140,8 +139,8 @@
             <div class="filter-name">
               Status
             </div>
-            <fieldset data-filter-group data-logic="and">
-              <select>
+            <fieldset data-filter-group="type" data-logic="and">
+              <select class='js-type'>
                 <option value="" selected="selected">Alle Karten</option>
                 <option value=".gold">Nur Goldkarten</option>
                 <!--<option value=".gold, .platin">Nur Gold- und Platinkarten</option>-->
@@ -153,8 +152,8 @@
             <div class="filter-name">
               Zahlungsart
             </div>
-            <fieldset data-filter-group data-logic="and">
-              <select>
+            <fieldset data-filter-group="payment" data-logic="and">
+              <select class='js-payment'>
                 <option value="">Alle Karten</option>
                 <option value=".za0">sofortiger Einzug vom Konto</option>
                 <option value=".za1">Rechnung / monatlich</option>
@@ -204,7 +203,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/viabuy-prepaid/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/viabuy-prepaid/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/viabuy-mastercard-prepaid.gif" alt="VIABUY Prepaid Mastercard" title="VIABUY Prepaid Mastercard" >
                 </a>
                 
@@ -338,7 +337,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -384,7 +383,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/barclaycard-gold/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/barclaycard-gold/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/barclaycard-gold-visa-kreditkarte.png" alt="barclay visa gold" title="barclay visa gold" >
                 </a>
                 
@@ -518,7 +517,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -548,7 +547,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/barclaycard-platinum/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/barclaycard-platinum/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/barclaycard-platinum-double-kreditkarte.png" alt="barclay visa" title="barclay visa" >
                 </a>
                 
@@ -682,7 +681,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -712,7 +711,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/barclaycard-student/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/barclaycard-student/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/barclaycard-students-kreditkarte.png" alt="barclay visa stundent" title="barclay visa stundent" >
                 </a>
                 
@@ -846,7 +845,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -868,9 +867,9 @@
       
       <div class="mix visa  default 25 za2" data-price="0" data-ranking="1.5" data-startguthaben="25" data-name="Barclaycard Visa">
         
-          <div class="pure-g"><div class="qm-sm-12-12"><div class="promotion-winner-text">Testsieger 03/2019</div></div></div>
+          <div class="pure-g"><div class="qm-sm-12-12"><div class="promotion-winner-text">Testsieger 05/2019</div></div></div>
         
-        <!--<div class="pure-g"><div class="qm-sm-12-12"><div class="promotion-text">Testsieger 03/2019</div></div></div>-->
+        <!--<div class="pure-g"><div class="qm-sm-12-12"><div class="promotion-text">Testsieger 05/2019</div></div></div>-->
         <div class=" winner   single-product-block pure-g">
           <div class="qm-sm-12-12 qm-md-4-12 qm-lg-3-12 single-product-left-wrapper">
 
@@ -878,7 +877,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/barclaycard-visa/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/barclaycard-visa/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/barclaycard-visa-kreditkarte.png" alt="barclay visa" title="barclay visa" >
                 </a>
                 
@@ -1010,7 +1009,7 @@
                     </div>
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -1040,7 +1039,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/dkb-cash/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/dkb-cash/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/dkb-visa-kreditkarte.jpg" alt="dkb visa" title="dkb visa" >
                 </a>
                 
@@ -1174,7 +1173,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -1204,7 +1203,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/hanseatic-genialcard/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/hanseatic-genialcard/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/hanseatic-genialcard.gif" alt="hanseatic genial" title="hanseatic genial" >
                 </a>
                 
@@ -1342,7 +1341,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -1372,7 +1371,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/ics-visa-gold/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/ics-visa-gold/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/ics-world-gold-kreditkarte.png" alt="ics visa world" title="ics visa world" >
                 </a>
                 
@@ -1502,7 +1501,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -1528,7 +1527,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/hanseatic-goldcard/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/hanseatic-goldcard/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/hanseatic-gold-kreditkarte.jpg" alt="hanseatic gold" title="hanseatic gold" >
                 </a>
                 
@@ -1658,7 +1657,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -1688,7 +1687,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/netbank-prepaid/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/netbank-prepaid/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/netbank-mastercard-prepaid.png" alt="netbank Prepaid" title="netbank Prepaid" >
                 </a>
                 
@@ -1818,7 +1817,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -1844,7 +1843,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/netbank-premium/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/netbank-premium/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/netbank-mastercard-premium.png" alt="netbank Premium" title="netbank Premium" >
                 </a>
                 
@@ -1974,7 +1973,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -2004,7 +2003,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/o2-debit-mastercard/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/o2-debit-mastercard/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/o2-mastercard-kreditkarte.jpeg" alt="o2 mastercard" title="o2 mastercard" >
                 </a>
                 
@@ -2136,7 +2135,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -2166,7 +2165,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/santander-1plus/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/santander-1plus/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/santander-1plus-kreditkarte.png" alt="Santander 1Plus" title="Santander 1Plus" >
                 </a>
                 
@@ -2298,7 +2297,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -2322,7 +2321,7 @@
         
           <div class="pure-g"><div class="qm-sm-12-12"><div class="promotion-text">Hohes Startguthaben</div></div></div>
         
-        <!--<div class="pure-g"><div class="qm-sm-12-12"><div class="promotion-text">Hohes Startguthaben 03/2019</div></div></div>-->
+        <!--<div class="pure-g"><div class="qm-sm-12-12"><div class="promotion-text">Hohes Startguthaben 05/2019</div></div></div>-->
         <div class="promoted single-product-block pure-g">
           <div class="qm-sm-12-12 qm-md-4-12 qm-lg-3-12 single-product-left-wrapper">
 
@@ -2330,7 +2329,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/ics-visa-world/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/ics-visa-world/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/ics-visa-world-kreditkarte.png" alt="ics visa world" title="ics visa world" >
                 </a>
                 
@@ -2458,7 +2457,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -2484,7 +2483,7 @@
               <div class="qm-sm-5-12 qm-md-12-12 single-product-left-image">
                 
 
-                <a href="/zur-bank/advanzia-mastercard/?id=<?= $id; ?>" target="_blank" rel="noopener nofollow">
+                <a href="/zur-bank/advanzia-mastercard/" target="_blank" rel="noopener nofollow" class="js-link">
                   <img class="lazy bank-logo" data-src="/assets/images/advanzia-mastercard-gold.jpg" alt="advanzia" title="advanzia" >
                 </a>
                 
@@ -2612,7 +2611,7 @@
                     
                     
                     <div class="ranking-box-bottom-date">
-                      03/2019
+                      05/2019
                     </div>
                   </div>
 
@@ -2754,6 +2753,38 @@
 
 
 <script type="application/javascript">
+  (function () {
+
+    // https://davidwalsh.name/query-string-javascript
+    function getUrlParameter(name, defaultValue) {
+        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+        var results = regex.exec(window.location.search);
+        return results === null ? defaultValue : decodeURIComponent(results[1].replace(/\+/g, ' '));
+    }
+
+    function setValue (selector, value) {
+      var node = document.querySelector(selector)
+      node.value = value === '' ? value : '.' + value
+    }
+
+    var param = {
+      card: getUrlParameter('card', ''),
+      payment: getUrlParameter('payment', ''),
+      type: getUrlParameter('type', ''),
+      id: getUrlParameter('id', '')
+    }
+
+    setValue('.js-card', param.card)
+    setValue('.js-payment', param.payment)
+    setValue('.js-type', param.type)
+
+    var links = document.querySelectorAll('.js-link')
+    links.forEach(function (node) {
+      var href = node.getAttribute('href')
+      node.setAttribute('href', href + '?id=' + param.id)
+    })
+
     var containerEl = document.querySelector('.container');
 
     var mixer = mixitup(containerEl, {
@@ -2775,6 +2806,11 @@
     });
 
 
+    mixer.setFilterGroupSelectors('card', '.' + param.card)
+    mixer.setFilterGroupSelectors('payment', '.' + param.payment)
+    mixer.setFilterGroupSelectors('type', '.' + param.type)
+    mixer.parseFilterGroups()
+  })()
 </script>
 
 
@@ -2802,25 +2838,24 @@
 </script>
 <script>
 
-    // if you want to use the 'fire' or 'disable' fn,
-    // you need to save OuiBounce to an object
-    var _ouibounce = ouibounce(document.getElementById('ouibounce-modal'), {
+    var modal = ouibounce(document.getElementById('ouibounce-modal'), {
         aggressive: true,
         timer: 0,
         callback: function() { console.log('ouibounce fired!'); }
     });
 
-    // $('body').on('click', function() {
-    //     $('#ouibounce-modal').hide();
-    // });
+    document
+      .querySelector('#ouibounce-modal .modal-footer')
+      .addEventListener('click', function() {
+        modal.disable();
+      })
 
-    $('#ouibounce-modal .modal-footer').on('click', function() {
-        $('#ouibounce-modal').hide();
-    });
-
-    $('#ouibounce-modal .modal').on('click', function(e) {
+    document
+      .querySelector('#ouibounce-modal .modal')
+      .addEventListener('click', function(e) {
         e.stopPropagation();
-    });
+      })
+
 </script>
 
 
