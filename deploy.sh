@@ -4,12 +4,12 @@ echo "* Build site"
 jekyll build > /dev/null
 
 echo "* Clean deployment dir"
-cd ../www.kreditkarten-vergleich.jetzt
+cd ../z-builds/kreditkarten-vergleich.jetzt
 shopt -u dotglob
 rm -rf *
 
 echo "* Copy files"
-cp -R ../x-kreditkarten-vergleich.jetzt/_site/* . > /dev/null
+cp -R ../../x-kreditkarten-vergleich.jetzt/_site/* . > /dev/null
 
 echo "* Add untracked files"
 git add .
